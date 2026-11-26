@@ -169,4 +169,9 @@ cython_debug/
 
 .vscode/*
 
-.DS_Store
+.DS_Store__pycache__/
+.pytest_cache/
+training/amharic/data/
+training/amharic/out/
+training/amharic/results/
+training/amharic/extracted/

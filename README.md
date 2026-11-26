@@ -31,6 +31,7 @@ Tibeb-Pro v0.1 uses the unchanged DeepSeek-V4-Pro-0813 weights with a default Ti
 
 | Folder | Contents |
 | :--- | :--- |
+| [`training/amharic/`](training/amharic) | Amharic data pipeline, evaluation and a free Kaggle QLoRA notebook |
 | [`encoding/`](encoding) | DeepSeek-V4 chat encoder with the default Tibeb system prompt, plus its test suite (`python encoding/test_encoding_dsv4.py`) |
 | [`inference/`](inference) | Legacy DeepSeek-V3 reference inference code from the original fork; it does not run V4 weights. Use the `inference/` folder in the [Hugging Face repo](https://huggingface.co/rekidane/Tibeb-Pro/tree/main/inference) for Tibeb-Pro |
 
